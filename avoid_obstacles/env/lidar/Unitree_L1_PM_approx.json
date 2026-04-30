@@ -1,0 +1,38 @@
+{
+  "class": "sensor",
+  "type": "lidar",
+  "name": "Unitree L1 PM approx (24ch @ ~21.6k pts/s)",
+  "driveWorksId": "GENERIC",
+  "profile": {
+    "scanType": "rotary",
+    "intensityProcessing": "normalization",
+    "rayType": "IDEALIZED",
+    "nearRangeM": 0.05,
+    "farRangeM": 20.0,
+    "startAzimuthDeg": 0.0,
+    "endAzimuthDeg": 360.0,
+    "upElevationDeg": 45.0,
+    "downElevationDeg": -45.0,
+    "rangeResolutionM": 0.001,
+    "rangeAccuracyM": 0.02,
+    "avgPowerW": 6.0,
+    "minReflectance": 0.1,
+    "minReflectanceRange": 10.0,
+    "wavelengthNm": 905.0,
+    "pulseTimeNs": 6,
+    "azimuthErrorMean": 0.0,
+    "azimuthErrorStd": 0.03,
+    "elevationErrorMean": 0.0,
+    "elevationErrorStd": 0.03,
+    "maxReturns": 1,
+    "scanRateBaseHz": 10.0,
+    "reportRateBaseHz": 1000,
+    "numberOfEmitters": 24,
+    "emitters": {
+      "azimuthDeg": [4.2, 1.4, -1.4, -4.2, 4.2, 1.4, -1.4, -4.2, 4.2, 1.4, -1.4, -4.2, 4.2, 1.4, -1.4, -4.2, 4.2, 1.4, -1.4, -4.2, 4.2, 1.4, -1.4, -4.2],
+      "elevationDeg": [44.5, 40.6, 36.8, 32.9, 29.0, 25.2, 21.3, 17.4, 13.5, 9.7, 5.8, 1.9, -1.9, -5.8, -9.7, -13.5, -17.4, -21.3, -25.2, -29.0, -32.9, -36.8, -40.6, -44.5],
+      "fireTimeNs": [381, 1143, 1905, 2667, 3429, 4191, 4953, 5715, 6477, 7239, 8001, 8763, 9525, 10287, 11049, 11811, 12573, 13335, 14097, 14859, 15621, 16383, 17145, 17907]
+    },
+    "intensityMappingType": "LINEAR"
+  }
+}
